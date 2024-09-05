@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int main()
+{
+//	Custom alpha pattern using a nested for loop.
+	
+	int i,j,k,l;
+	for(i=1; i<=5; i++)
+	{
+		for(j=1; j<=5; j++)
+		{
+			if(i==1 || i==3 ||j==1)
+			{
+				printf("*");
+			}
+			else if(i==2 && j==5)
+			{
+				printf("*");
+			}
+			else
+			{
+				printf(" ");
+			}
+		}
+
+		printf("\n");
+	}
+}
